@@ -1,0 +1,14 @@
+<div class="login-box">
+    <h2>Add club</h2>
+    <form>
+      <div class="user-box">
+        <input matInput placeholder="Club name" [(ngModel)]="clubs.clubName" id="clubName"  [ngModelOptions]="{standalone: true}"  >
+      </div>
+      <div class="user-box">
+        <input  matInput placeholder="Location" [(ngModel)]="clubs.location" id="Location" [ngModelOptions]="{standalone: true}" >
+      </div>
+      <mat-card-actions>
+        <button id="addClubButton" mat-raised-button type="submit" target="_blank" (click)="addclubs()">Add Club</button>
+      </mat-card-actions>
+    </form>
+  </div>

@@ -1,0 +1,17 @@
+.full-width-table {
+  width: 80%;
+  // height: 20%;
+  table-layout: fixed;
+  padding: 0%;
+  margin: 10px auto;
+  background-color: rgba($color: #ffffff, $alpha: 0.7);
+}
+.paginator{
+  width: 80%;
+  padding: 0%;
+  margin: 10px auto;
+}
+.header{
+  color: white;
+  margin-left: 40%;
+}
